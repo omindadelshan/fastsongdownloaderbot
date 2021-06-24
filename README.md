@@ -23,4 +23,4 @@
 - In Groups - `/song <song name>`
 - In Private - Just send song name
 
-### sticker("CAACAgIAAxkBAAEJpapg0_2HeGW3t93F6d1IbW7HftgqEAAC8wcAAhhC7gj21R3ZVhUQAx4E")
+
