@@ -14,21 +14,21 @@
 
 
 ###   <a href="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
-
+###  🧙‍♀️ Deploy Guide
 <a href="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1"><img src="https://telegra.ph/file/beca543cd87ec72be6069.jpg"></a>
 
 ### Credits:
 
-- [slbotzone](https://t.me/slbotzone)
+###- [slbotzone](https://t.me/slbotzone)
 
-- [Pyrogram Library](https://github.com/pyrogram/pyrogram)
+###- [Pyrogram Library](https://github.com/pyrogram/pyrogram)
 
 ### Developers:
 
 - [@supunma](https://t.me/supunma)
 - 
 ### Commands:
-- In Groups - `/song <song name>`
-- In Private - Just send song name
+- In Groups - `/song <song name>`<img src="https://camo.githubusercontent.com/2c8b3670d933220ae3c023fa1d568682975cce3f10799d0d3ff5ecac394b4ee8/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f31326f75664342304d795a31476f2f67697068792e676966" width="50px">
+- In Private - Just send song name <img src="https://camo.githubusercontent.com/2c8b3670d933220ae3c023fa1d568682975cce3f10799d0d3ff5ecac394b4ee8/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f31326f75664342304d795a31476f2f67697068792e676966" width="50px">
 
 
