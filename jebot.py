@@ -1,4 +1,4 @@
-#    Copyright (c) 2021 Infinity BOTs <https://t.me/Infinity_BOTs>
+#    Copyright (c) 2021 slbotzone <https://t.me/slbotzone>
  
 #    This program is free software: you can redistribute it and/or modify  
 #    it under the terms of the GNU General Public License as published by  
@@ -48,7 +48,7 @@ async def song(client, message):
  #ImJanindu #JEBotZ
     cap = "@fastsongdownloderslbzbot"
     url = message.text
-    rkp = await message.reply("Processing...")
+    rkp = await message.reply("🌟 Processing...")
     search = SearchVideos(url, offset=1, mode="json", max_results=1)
     test = search.result()
     p = json.loads(test)
@@ -56,7 +56,7 @@ async def song(client, message):
     try:
         url = q[0]["link"]
     except BaseException:
-        return await rkp.edit("Failed to find that song.")
+        return await rkp.edit("🌟Failed to find that song.")
     type = "audio"
     if type == "audio":
         opts = {
@@ -80,14 +80,14 @@ async def song(client, message):
         }
         song = True
     try:
-        await rkp.edit("Downloading...")
+        await rkp.edit("📥 Downloading...")
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
     except DownloadError as DE:
         await rkp.edit(f"`{str(DE)}`")
         return
     except ContentTooShortError:
-        await rkp.edit("`The download content was too short.`")
+        await rkp.edit("`📥 The download content was too short.`")
         return
     except GeoRestrictedError:
         await rkp.edit(
@@ -114,13 +114,13 @@ async def song(client, message):
         return
     time.time()
     if song:
-        await rkp.edit("Uploading...") #ImJanindu
+        await rkp.edit(" 📤 Uploading...") #ImJanindu
         lol = "./thumb.jpg"
         lel = await message.reply_audio(
                  f"{rip_data['id']}.mp3",
                  duration=int(rip_data["duration"]),
                  title=str(rip_data["title"]),
-                 performer=str(rip_data["uploader"]),
+                 performer=str(rip_data["📤uploader"]),
                  thumb=lol,
                  caption=cap)  #JEBotZ
         await rkp.delete()
@@ -134,7 +134,7 @@ async def song(client, message):
     url = message.text.split(None, 1)[1]
     rkp = await message.reply("Processing...")
     if not url:
-        await rkp.edit("**What's the song you want?**\nUsage`/song <song name>`")
+        await rkp.edit("**🤦What's the song you want?**\nUsage`/song <song name>`")
     search = SearchVideos(url, offset=1, mode="json", max_results=1)
     test = search.result()
     p = json.loads(test)
@@ -219,15 +219,16 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
+               sticker("CAACAgIAAxkBAAEJp3Bg1CErSDjmDGLFaJZt7DW1x2H97QACqAEAAjDUnREPZpQTbub_3h4E")
                text="""<b>👋 Hey There, I'm a Song Downloader Bot. A bot by 👨‍💻 @slbotzone.
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Help", callback_data="help"),
+                                            " 💫 Help 💫", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/slbotzone")
+                                            "🔥 guid for create this bot🔥 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
