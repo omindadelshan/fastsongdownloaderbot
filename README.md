@@ -1,6 +1,6 @@
 # Telegram Song Download Bot ❤
 
-## You can download any song using this bot. Can be found in telegram as [@fastsongdownloderslbzbot](https://t.me/fastsongdownloderslbzbot)
+## You can download any song using this bot. Can be found in telegram as [@FastSongDownloader_bot](http://t.me/FastSongDowloaderSri_bot)
 <img align="right" src="https://github.com/RazorKenway/RazorKenway/raw/main/Developer.gif" style="max-width:100%;">
 <img align="senter" src="https://telegra.ph/file/6a770aa935e5b53dbf20e.jpg" style="max-width:100%;">
 
@@ -19,13 +19,13 @@
 
 ### Credits:
 
-###- [slbotzone](https://t.me/slbotzone)
+###- [ominda](https://t.me/omintras)
 
 ###- [Pyrogram Library](https://github.com/pyrogram/pyrogram)
 
 ### Developers:
 
-- [@supunma](https://t.me/supunma)
+- [@omintras](https://t.me/omintras)
 - 
 ### Commands:
 - In Groups - `/song <song name>`<img src="https://camo.githubusercontent.com/2c8b3670d933220ae3c023fa1d568682975cce3f10799d0d3ff5ecac394b4ee8/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f31326f75664342304d795a31476f2f67697068792e676966" width="50px">
